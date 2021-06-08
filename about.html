@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Acerca de Nosotros</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="apple-touch-icon" href="assets/img/icono.png">
+  <!----- icono para apple y safari --> 
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/icono.png">
+  <!-- Load Require CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- iconos  -->
+  <link href="assets/css/boxicon.min.css" rel="stylesheet">
+  <!-- tipo de letra -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;300;400;600&display=swap" rel="stylesheet">
+  <!-- carga CSS -->
+  <link rel="stylesheet" href="assets/css/estilos.css">
+
+</head>
+
+<body>
+
+    <!-- mi menu de navegacion -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light shadow bg-warning border-bottom border-dark py-0">
+
+      <div class="container d-flex justify-content-between align-items-center bg-">
+
+        <a class="navbar-brand h1 semi-bold-600" href="index.html"> 
+
+          <span class="text-dark h3 border-bottom border-bottom-4 border-dark">Impresoras-</span><span class="text-white h4">3D</span>
+      </a>
+
+      <!--    boton de hamburguesa --> 
+      <button class="navbar-toggler border-0" 
+      type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbar-toggler-success" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class=" navbar-toggler-icon">
+      </span>
+  </button>
+  <!------------------------------------------- Opciones del Menu       -->
+  <div class="py-0 my-0 align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+  id="navbar-toggler-success">
+
+        <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+        por un punto de interrupción principal.
+        flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+        d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+        directos en elementos flexibles
+    -->
+    <div class="flex-fill mx-xl-5">
+        <!--      mx=para clases que establecen tanto *-lefty*-right-->
+        <ul class="nav navbar-nav d-flex justify-content-between  mx-4 mx-xl-5 text-center text-dark light-100 my-0 py-0">
+          <li class="nav-item ml-5 my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="about.html">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="work.html">Productos</a>
+        </li>
+        <li class="nav-item my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="pricing.html">Ofertas</a>
+        </li>
+        <li class="nav-item mr-5 my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="contact.html">Contáctanos</a>
+        </li>
+    </ul>
+</div>
+
+ <!---------------------------------------------------------Fin de las opciones del menu
+     ------------------------------------------------------------ Inicio de los iconos del menu-->
+     <div class="navbar align-self-center d-flex my-0 p-0">
+        <a class="nav-link" href="#">
+          <span style="position: relative;">
+            <i class='bx bx-bell bx-sm bx-tada-hover text-dark'></i>
+            <span class="badge badge-dark text-muted" id="contador-mensajes">3</span>
+        </span>
+
+    </a>
+    <a class="nav-link" href="#"><i class='bx bx-cart-alt bx-sm text-dark'></i></a>
+    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-dark'></i></a>
+    <!--    https://iconify.design/icon-sets/bx/-->
+</div>
+</div>
+</div>
+</nav>
+
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <section class=" w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-5">
+                
+                <div class="col-lg-6">
+                    <img class="d-block w-100" src="./assets/img/mis-imagenes/about-us.jpg">
+                </div>
+
+                <div class="col-lg-6 text-start">
+                    <h1 class="h2 py-5 text typo-space-line light-300">Sobre Nosotros</h1>
+                    
+                    <p class="light-300">
+                        Impresoras-3d fue creada en el año 2015. Nos dedicamos a la venta de impresoras 3D, repuestos e insumos.
+                    </p>
+                    <p class="light-300">
+                        Todos nuestros productos son de muy buena calidad y contamos con los mejores precios del mercado. llegando a usted sin intermediarios.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Team Member -->
+    <section class="container py-5">
+        <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
+
+            <div class="col-lg-3">
+                <h2 class="h2 py-5 typo-space-line light-300">Nuestro Equipo</h2>
+                <p class="text-muted light-300">
+                    Nuestro equipo está calificado para cualquier tipo de trabajo.
+                </p>
+            </div>
+
+            <div class="col-lg-9 row">
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/mis-imagenes/nosotros-3.png" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>@Sergio</li>
+                        <li>Experto en Impresoras 3D</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/mis-imagenes/nosotros-2.png" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>@Juliana</li>
+                        <li>Departamento de ventas</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/mis-imagenes/nosotros-1.png" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>@Roberto</li>
+                        <li>Soporte tecnico</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Team Member -->
+
+    <!-- Start Our Partner -->
+    <section class="bg-warning py-3">
+        <div class="container py-5">
+            <h2 class="h2 text-white text-center py-5 typo-space-line light-300">Nuestros Clientes</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5 bg-dark">
+                        <a href="#"><i class='display-1 text-white bx bxl-amazon'></i></a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5 bg-dark">
+                        <a href="#"><i class='display-1 bx text-white bx bxl-tux bx-lg'></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5 bg-dark">
+                        <a href="#"><i class='display-1 text-white bx bxs-ship'></i></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5 bg-dark">
+                        <a href="#"><i class='display-1 text-white bx bxs-spa'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Our Partner-->
+
+    <!-- Start Progress -->
+    <section class="bg-white py-5">
+        <div class="container my-4">
+
+            <h2 class="creative-heading h2 pb-3 typo-space-line light-300">Capacitaciones</h2>
+
+            <div class="creative-content row py-3">
+                <div class="col-md-5">
+                    <p class="text-muted col-lg-8 light-300">Aprende paso a paso el proceso de diseño, modelado e impresión en 3D y da forma a tus ideas.
+                    </p>
+                    <p class=" text-muted light-300">
+                        8 clases totales de 4 horas cada una.
+                    </p>
+                </div>
+                <div class="creative-progress col-md-7">
+
+                    <div class="row mt-4 mt-sm-2">
+                        <div class="col-6">
+                            <h4 class="h5 light-300">Diseño 3D</h4>
+                        </div>
+                        <div class="col-6 text-right">25%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <div class="row mt-4 mt-sm-2">
+                        <div class="col-6">
+                            <h4 class="h5 light-300">Modelado 3D</h4>
+                        </div>
+                        <div class="col-6 text-right">50%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+
+                    <div class="row mt-4 mt-sm-2">
+                        <div class="col-6">
+                            <h4 class="h5 light-300">Impresion 3D</h4>
+                        </div>
+                        <div class="col-6 text-right">100%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Progress -->
+
+    <!-- Start Choice -->
+    <section class="why-us banner-bg bg-light">
+        <div class="container my-4">
+            <div class="row">
+                <div class="banner-img col-lg-5">
+                    <img src="./assets/img/work.svg" class="rounded img-fluid" alt="">
+                </div>
+                <div class="banner-content col-lg-7 align-self-end">
+                    <h2 class="h2 pb-3 typo-space-line light-300 text-muted">¿Por qué Elegirnos?</h2>
+                    <br>
+                    <p class="text-muted pb-5 light-300">En <span class="text-warning">Impresoras-3D</span> vas a encontrar el mejor acesoramiento , las mejores impresoras 3d, el mejor servicio post venta y nos encargamos que puedas aprovechar al maximo tu impresora 3d con nuestras capacitaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Choice -->
+
+    <!-- Start Aim -->
+    <section class="banner-bg bg-white py-5">
+        <div class="container my-4">
+            <div class="row text-center">
+
+                <div class="objective col-lg-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-secondary shadow-lg bg-warning">
+                        <i class="display-4 bx bxs-bulb text-dark "></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Nuestra Vision</h2>
+                    <p class="light-300">
+                        Ser una empresa líder en venta y distribución de productos de impresoras 3D.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-secondary shadow-lg bg-warning">
+                        <i class='display-4 bx bx-revision text-dark'></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Nuestra Misión</h2>
+                    <p class="light-300">
+                        Buscamos cumplir y mejorar día a día en el servicio que ofrecemos.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-secondary shadow-lg bg-warning">
+                        <i class="display-4 bx bxs-select-multiple text-dark"></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Nuestra Pasión</h2>
+                    <p class="light-300">
+                        Nuestra pasión es ayudar a las empresas a materializar sus ideas.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Aim -->
+
+    <!-- Start Contact -->
+    <section class="banner-bg py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto my-4 p-3">
+                    <form action="#" method="get"><h1 class="h2 text-center light-300">Suscribite a nuestras novedades</h1>
+                    <div class="input-group py-3">
+                    
+                        <input name="email" type="mail" class="form-control form-control-lg  rounded-left" id="email" placeholder="Tu Email" aria-label="Tu Email" required>
+                        <button class="btn btn-warning text-white btn-lg rounded-right px-lg-4" type="submit">Suscribirte</button>
+                    </div>
+                    <p class="text-center light-300">Vas a recibir en tu casilla de correo las mejores ofertas de nuestras impresoras 3d.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+     <!-- Start Footer -->
+    
+     <footer class="bg-dark pt-4">
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-lg-3 col-12 align-left">
+        <h4 class="light-300 text-warning mb-4">Impresoras-<span class="text-white">3D</span> </h4>
+        <h5 class="text-white light-300 mb-3">Redes sociales</h5>
+        
+        <ul class="list-inline footer-icons light-300">
+          <li class="list-inline-item m-0">
+            <a class="text-light " target="_blank" href="http://facebook.com/">
+              
+              <i class='bx bxl-facebook-circle bx-md  text-warning'></i>
+            </a>
+          </li>
+          <li class="list-inline-item m-0">
+            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+              
+              <i class='bx bxl-linkedin bx-md  text-warning'></i>
+            </a>
+          </li>
+          <li class="list-inline-item m-0">
+            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+              
+              <i class='bx bxl-whatsapp bx-md text-warning'></i>
+            </a>
+          </li>
+          <li class="list-inline-item m-0">
+            <a class="text-light" target="_blank" href="https://www.flickr.com/">
+          
+              <i class='bx bxl-instagram bx-md text-warning' ></i>
+            </a>
+          </li>
+          <li class="list-inline-item m-0">
+            <a class="text-light" target="_blank" href="https://www.twitter.com/">
+              
+              <i class='bx bxl-twitter bx-md text-warning' ></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-12 my-sm-0 mt-4" >
+        <h4 class="light-300 text-warning mb-4">Av. Corrientes 700</h4>
+        <h5 class="text-white light-300">Horarios de atencion</h5>
+        <p class="text-white light-100">Lunes a Viernes de 10 a 18 Hs.</p>
+      </div>
+
+      <div class="col-lg-6 col-12 my-sm-0 mt-4" >
+        <iframe class="rounded border-warning" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6567.855665215233!2d-58.381898957927746!3d-34.60598635384786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1622499463454!5m2!1ses!2sar" width="100%"  height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      </div>
+    </div>
+
+    <div class="w-100 bg-warning py-3">
+      <div class="container">
+        <div class="row pt-2">
+          <div class="col-lg-7 col-sm-12">
+            <p class="text-lg-start text-center light-300 text-dark">
+              © Copyright 2021 Impresoras-3D. Todos los derechos reservados.
+            </p>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <p class="text-lg-end text-center text-light light-300 text-dark">
+              Diseñado por <a rel="sponsored" class="text-decoration-none text-white" 
+              href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

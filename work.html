@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Productos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="apple-touch-icon" href="assets/img/icono.png">
+  <!----- icono para apple y safari --> 
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/icono.png">
+  <!-- Load Require CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- iconos  -->
+  <link href="assets/css/boxicon.min.css" rel="stylesheet">
+  <!-- tipo de letra -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;300;400;600&display=swap" rel="stylesheet">
+  <!-- carga CSS -->
+  <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light shadow bg-warning border-bottom border-dark py-0">
+
+      <div class="container d-flex justify-content-between align-items-center bg-">
+
+        <a class="navbar-brand h1 semi-bold-600" href="index.html"> 
+
+          <span class="text-dark h3 border-bottom border-bottom-4 border-dark">Impresoras-</span><span class="text-white h4">3D</span>
+      </a>
+
+      <!--    boton de hamburguesa --> 
+      <button class="navbar-toggler border-0" 
+      type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbar-toggler-success" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class=" navbar-toggler-icon">
+      </span>
+  </button>
+  <!------------------------------------------- Opciones del Menu       -->
+  <div class="py-0 my-0 align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+  id="navbar-toggler-success">
+
+        <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+        por un punto de interrupción principal.
+        flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+        d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+        directos en elementos flexibles
+    -->
+    <div class="flex-fill mx-xl-5">
+        <!--      mx=para clases que establecen tanto *-lefty*-right-->
+        <ul class="nav navbar-nav d-flex justify-content-between  mx-4 mx-xl-5 text-center text-dark light-100 my-0 py-0">
+          <li class="nav-item ml-5 my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="about.html">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="work.html">Productos</a>
+        </li>
+        <li class="nav-item my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="pricing.html">Ofertas</a>
+        </li>
+        <li class="nav-item mr-5 my-0">
+            <a class="nav-link btn-outline-dark my-0 px-2 text-white py-3" href="contact.html">Contáctanos</a>
+        </li>
+    </ul>
+</div>
+
+ <!---------------------------------------------------------Fin de las opciones del menu
+     ------------------------------------------------------------ Inicio de los iconos del menu-->
+     <div class="navbar align-self-center d-flex my-0 p-0">
+        <a class="nav-link" href="#">
+          <span style="position: relative;">
+            <i class='bx bx-bell bx-sm bx-tada-hover text-dark'></i>
+            <span class="badge badge-dark text-muted" id="contador-mensajes">3</span>
+        </span>
+
+    </a>
+    <!-- <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a> -->
+    <a class="nav-link" href="#"><i class='bx bx-cart-alt bx-sm text-dark'></i></a>
+    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-dark'></i></a>
+    <!--    https://iconify.design/icon-sets/bx/-->
+</div>
+</div>
+</div>
+</nav>
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <div id="work_banner" class="banner-wrapper bg-light w-100 py-5">
+        <div class="banner-vertical-center-work container text-light d-flex justify-content-center align-items-center py-5 p-0">
+            <div class="banner-content-2 col-lg-8 col-12 m-lg-auto text-center">
+                <h1 class="banner-heading h2 display-3 pb-5 semi-bold-600 typo-space-line-center text-white">Elegi tu proxima impresora 3D</h1>
+                <h3 class=" light-300 text-dark pb-4 pt-0  mx-md-5 ">Te acompañamos en todo momento brindando asistencia a todas tus consultas.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+    <!-- Start Our Work -->
+    <section class="container py-5">
+        <div class="row justify-content-center my-5 bg-dark rounded">
+            <div class="filter-btns shadow-md  text-center col-auto ">
+                <a class="filter-btn btn  btn-outline-warning border-0 my-2 m-md-2 px-md-4 active" data-filter=".project" href="#">Todos</a>
+                <a class="filter-btn btn  btn-outline-warning border-0 my-2 m-md-2 px-md-4" data-filter=".business" href="#">Impresoras</a>
+                <a class="filter-btn btn  btn-outline-warning border-0 my-2 m-md-2 px-md-4" data-filter=".marketing" href="#">Insumos</a>
+                <a class="filter-btn btn  btn-outline-warning border-0 my-2 m-md-2 px-md-4" data-filter=".social" href="#">Repuestos</a>
+                
+            </div>
+        </div>
+
+        <div class="row projects gx-lg-5">
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project business">
+                <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/impresora-1.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Prusa I3 Pro</h5>
+                        <p class="card-text light-300 text-dark">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolor.
+                        </p>
+
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+                <button type="button" class="btn btn-warning text-white"><strong>$ 125.000</strong></button>
+              </div>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project business ">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/impresora-2.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Creality Ender 5 Pro</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+                <button type="button" class="btn btn-warning text-white"><strong>$ 70.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project business">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/impresora-3.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Creality Cr10 Max</h5>
+                        <p class="card-text light-300 text-dark">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolor.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+                <button type="button" class="btn btn-warning text-white"><strong>$ 39.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project business">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/impresora-4.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Hellbot Magna 1</h5>
+                        <p class="card-text light-300 text-dark">
+                            Excepteur sint occaecat cupidatat non proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 79.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project business">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/impresora-5.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Hellbot Magna Dual</h5>
+                        <p class="card-text light-300 text-dark">
+                            Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 34.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project business">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/impresora-6.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Creality Ender 3 Pro</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 150.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project business">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/impresora-7.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">I3 Mini Wanhao</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 66.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project business">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/impresora-8.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Artillery Sidewinder X1</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 81.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/insumos-1.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Filamento 3D ABS</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 1.500</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/insumos-2.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Cama de vidrio</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 2.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/insumos-3.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Filamento 3D ABS</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                       <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 1600</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project social">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/insumos-4.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">Acople flexible</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 900</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project social">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/insumos-5.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">PicoInox Rx</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 3.000</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project social">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/mis-imagenes/insumos-6.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 text-dark">StepperDriver</h5>
+                        <p class="card-text light-300 text-dark">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark py-0 text-white"><i class='bx bxs-cart-alt text-light'></i></button>
+
+                <button type="button" class="btn btn-warning text-white"><strong>$ 1.350</strong></button>
+              </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="btn-toolbar justify-content-center pb-4" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-warning text-white">Ant.</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-dark">1</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-warning text-white">2</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-warning text-white">Sig.</button>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- End Our Work -->
+
+    <!-- Start Feature Work -->
+    <section class="bg-light py-5">
+        <div class="feature-work container my-4">
+            <div class="row d-flex d-flex align-items-center">
+                <div class="col-lg-5">
+                    <h3 class="feature-work-title h4 text-muted light-300">Descubri las mejores impresoras 3D...</h3>
+                    <h1 class="feature-work-heading h2 py-3 semi-bold-600">Te presentamos a la Hellbot Magna 2 230 Dykit</h1>
+                    <p class="feature-work-body text-muted light-300">
+                        Pensada para facilitarte el trabajo, podrás operarla mediante su pantalla táctil a color de 3.5 pulgadas o remotamente vía WiFi desde tu computadora.
+                    </p>
+                    <p class="feature-work-footer text-muted light-300">
+                        Magna 2 está equipada con un doble extrusor Dual Drive de última generación y un hotend 2 en 1 con cambio en frío. Este sistema permite el paso de un material a la vez, manteniendo el hotend limpio y con la temperatura justa cuando ingresa el nuevo material evitando que se obstruya el paso.
+                    </p>
+                </div>
+                <div class="col-lg-6 offset-lg-1 align-left">
+                    <div class="row">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/mis-imagenes/noticia-1.jpg">
+                            <img class="img-fluid" src="./assets/img/mis-imagenes/noticia-1.jpg">
+                        </a>
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/mis-imagenes/noticia-2.jpg">
+                            <img class="img-fluid" src="./assets/img/mis-imagenes/noticia-2.jpg">
+                        </a>
+                    </div>
+                    <div class="row pt-4">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/mis-imagenes/noticia-3.jpg">
+                            <img class="img-fluid" src="./assets/img/mis-imagenes/noticia-3.jpg">
+                        </a>
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/mis-imagenes/noticia-4.jpg">
+                            <img class="img-fluid" src="./assets/img/mis-imagenes/noticia-4.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature Work -->
+
+
+   <!-- Start Footer -->
+
+   <footer class="bg-dark pt-4">
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-lg-3 col-12 align-left">
+        <h4 class="light-300 text-warning mb-4">Impresoras-<span class="text-white">3D</span> </h4>
+        <h5 class="text-white light-300 mb-3">Redes sociales</h5>
+        
+        <ul class="list-inline footer-icons light-300">
+          <li class="list-inline-item m-0">
+            <a class="text-light " target="_blank" href="http://facebook.com/">
+              
+              <i class='bx bxl-facebook-circle bx-md  text-warning'></i>
+            </a>
+          </li>
+          <li class="list-inline-item m-0">
+            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+              
+              <i class='bx bxl-linkedin bx-md  text-warning'></i>
+            </a>
+          </li>
+          <li class="list-inline-item m-0">
+            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+              
+              <i class='bx bxl-whatsapp bx-md text-warning'></i>
+            </a>
+          </li>
+          <li class="list-inline-item m-0">
+            <a class="text-light" target="_blank" href="https://www.flickr.com/">
+          
+              <i class='bx bxl-instagram bx-md text-warning' ></i>
+            </a>
+          </li>
+          <li class="list-inline-item m-0">
+            <a class="text-light" target="_blank" href="https://www.twitter.com/">
+              
+              <i class='bx bxl-twitter bx-md text-warning' ></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-12 my-sm-0 mt-4" >
+        <h4 class="light-300 text-warning mb-4">Av. Corrientes 700</h4>
+        <h5 class="text-white light-300">Horarios de atencion</h5>
+        <p class="text-white light-100">Lunes a Viernes de 10 a 18 Hs.</p>
+      </div>
+
+      <div class="col-lg-6 col-12 my-sm-0 mt-4" >
+        <iframe class="rounded border-warning" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6567.855665215233!2d-58.381898957927746!3d-34.60598635384786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1622499463454!5m2!1ses!2sar" width="100%"  height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      </div>
+    </div>
+
+    <div class="w-100 bg-warning py-3">
+      <div class="container">
+        <div class="row pt-2">
+          <div class="col-lg-7 col-sm-12">
+            <p class="text-lg-start text-center light-300 text-dark">
+              © Copyright 2021 Impresoras-3D. Todos los derechos reservados.
+            </p>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <p class="text-lg-end text-center text-light light-300 text-dark">
+              Diseñado por <a rel="sponsored" class="text-decoration-none text-white" 
+              href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+    <!-- End Footer -->
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Lightbox -->
+    <script src="assets/js/fslightbox.js"></script>
+    <script>
+        fsLightboxInstances['gallery'].props.loadOnlyCurrentSource = true;
+    </script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
